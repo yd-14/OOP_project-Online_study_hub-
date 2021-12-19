@@ -1,6 +1,6 @@
 # OOP_project-Tutors_corner-
 
-*Contributors-
+Contributors-
 Ashis J                            (20bcs022)
 Ashwani Kumar              (20bcs023)
 Hemang Ranga              (20bcs057)
