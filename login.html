@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Portal</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Baloo+Bhaina+2&family=Bree+Serif&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CSS/login.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="CSS/login1.css">
+    <link rel="stylesheet" media="screen and (max-width: 300px)" href="CSS/login2.css">
+</head>
+
+<body>
+    <!-- <div class="wrapper">
+        <div class="logo">
+            <img src="./image/bgp.jpg" alt="Tutor's Corner">
+        </div>
+        <ul class="nav-area">
+            <li><a href="final.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </div> -->
+    <div id="LOGIN">
+        <div class="form-container">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toogle-btn" onclick="login()">Log In</button>
+                    <button type="button" class="toogle-btn" onclick="register()">Register</button>
+
+                </div>
+                <div class="social-icons">
+                    <img src="./insta1.jpg" alt="instagram">
+                    <img src="./tw.png" alt="Twitter">
+                    <img src="./goole1.jpg" alt="Google">
+                </div>
+                <form id="login" action="noaction.php" class="input-group">
+                    <input type="text" class="input-field" placeholder="User Id" required>
+                    <input type="password" class="input-field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="checkbox"><span>Remember Password</span>
+                    <button type="submit" class="submit-btn">Login</button>
+                </form>
+                <form id="register" action="noaction1.php" class="input-group">
+                    <input type="text" class="input-field" placeholder="User Id" required>
+                    <input type="email" class="input-field" placeholder="Email Id" required>
+                    <input type="password" class="input-field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="checkbox"><span>I agree to Terms and Conditions.</span>
+                    <button type="submit" class="submit-btn">Register Now</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        var x = document.getElementById("login")
+        var y = document.getElementById("register")
+        var z = document.getElementById("btn")
+
+        function register() {
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+
+        }
+        function login() {
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0px";
+
+        }
+
+    </script>
+    <!-- <footer>
+        <div class="center">Copyright &copy; TutorsCorner.com All Rights Reserved!</div>
+    </footer> -->
+</body>
+
+</html>
