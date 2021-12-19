@@ -1,14 +1,14 @@
 # OOP_project-Tutors_corner-
 
 Contributors-
-Ashis J                            (20bcs022)
-Ashwani Kumar              (20bcs023)
-Hemang Ranga              (20bcs057)
-Rakshitha Y                      (20bcs107)
-Veekshith Reddy            (20bcs111)
-Sunil Kumar Patidar       (20bcs131)
-Yashu Mittal                   (20bcs139)
-Yugal deep Singh          (20bcs140)
+Ashis J                            (20bcs022) |
+Ashwani Kumar              (20bcs023) |
+Hemang Ranga              (20bcs057) |
+Rakshitha Y                      (20bcs107) |
+Veekshith Reddy            (20bcs111) |
+Sunil Kumar Patidar       (20bcs131) |
+Yashu Mittal                   (20bcs139) |
+Yugal deep Singh          (20bcs140) |
 
 
 Tutor’s Corner is a web-based study material sharing and management system which helps students and teachers to share their study material online effectively. It reduces the wasting of time in manually distributing notes and books to each individual. It greatly overcomes the lack of availability and converts the manual old school paperwork to a fully automated and managed online system. 
